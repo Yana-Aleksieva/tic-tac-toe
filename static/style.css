@@ -1,0 +1,59 @@
+#board {
+    width: 150px;
+    display: none;
+}
+
+.row {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+ /* #textarea{
+   
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    display: flex;
+    margin: auto;
+    margin-top:  -86px;
+    margin-left: 516px;
+    width: 270px;
+    height: 270px;
+}  */
+
+#chat{
+    display: block;
+    border-radius: 25px;
+    border: 1px solid black;
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    background-color: darkgray;
+    display: none;
+}
+
+#textarea{
+    border-radius: 25px;
+    border: 2px solid darkgray;
+   margin-bottom: 10px;
+   width: 252px;
+text-align: center;
+   
+}
